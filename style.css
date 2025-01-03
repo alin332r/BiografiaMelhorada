@@ -1,0 +1,180 @@
+/* Design Biográfico com Paleta Elegante */
+body {
+    font-family: 'Georgia', serif; /* Fonte clássica para um visual elegante */
+    background-color: #f3f4f6; /* Fundo cinza claro para suavidade */
+    color: #333; /* Cor do texto para boa legibilidade */
+    line-height: 1.6; /* Melhor espaçamento entre linhas */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container geral */
+.container {
+    width: 90%; /* Aumente a largura geral */
+    max-width: 1200px; /* Ajuste o valor máximo ou remova esta linha */
+    margin: 50px auto; /* Mantém centralizado */
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+/* Estilo de título */
+h1 {
+    font-size: 2.5em;
+    color: #4a148c; /* Roxo profundo */
+    border-bottom: 3px solid #6a1b9a; /* Linha decorativa */
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1px; /* Espaçamento entre letras para um toque mais elegante */
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #283593; /* Azul escuro */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Negrito para maior destaque */
+}
+
+h3 {
+    font-size: 1.6em;
+    color: #1565c0; /* Azul vibrante */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo da imagem de perfil */
+.center-img {
+    display: block;
+    margin: 0 auto 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #6a1b9a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.center-img:hover {
+    transform: scale(1.05); /* Efeito de zoom */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+}
+
+/* Estilo do texto */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #e8eaf6;
+}
+
+/* Estilo da galeria de imagens */
+.gallery {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 15px 0;
+}
+
+.gallery img {
+    border-radius: 8px;
+    max-height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da seção de citações */
+#citacoes {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da citação */
+#quote {
+    font-style: italic;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+/* Curiosidades */
+#curiosidades ul {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#curiosidades li {
+    background-color: #f9f9f9;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#curiosidades li:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50; /* Verde suave */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde mais escuro */
+}
+
+/* Estilo da parte do título */
+h2 {
+    font-size: 24px;
+    color:#1565c0;
+    margin-bottom: 15px;
+}
+
