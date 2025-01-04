@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.querySelectorAll('#curiosidades li').forEach(item => { 
     item.addEventListener('click', () => {
         const extraInfo = item.querySelector('.extra-info');
